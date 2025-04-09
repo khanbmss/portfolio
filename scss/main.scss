@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: 'Arial', sans-serif;
     background-color: #FAFBFC;
@@ -25,3 +26,32 @@ a:hover {
         // height: 40vh;
     }
 }
+=======
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FAFBFC;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    section{
+        margin: 20px 0;
+        min-height: 20vh;
+        // height: 40vh;
+    }
+}
+>>>>>>> 3f5cdc9d9326b7361ab403714445928dc3eb52a0
