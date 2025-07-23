@@ -9635,6 +9635,35 @@ h1, h2, h3, h4, h5,
   background: #7da2a9;
 }
 
+.project-img-scroll-container {
+  position: relative;
+  width: 100%;
+  height: 250px; /* Adjust as needed */
+  overflow: hidden;
+  border-radius: 0px;
+}
+
+.project-img-scroll-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%; /* Make image taller than container */
+  background-size: cover;
+  background-position: top center;
+  transition: background-position 2s linear;
+}
+
+.project-img-scroll-container:hover .project-img-scroll-bg {
+  background-position: bottom center;
+}
+
+.project .overlay,
+.project .text {
+  position: relative;
+  z-index: 2;
+}
+
 .btn {
   cursor: pointer;
   font-size: 14px;
@@ -10804,4 +10833,8 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
+}
+.project-item h6 {
+  font-size: 14px;
+  font-weight: Bold;
 }/*# sourceMappingURL=style.css.map */
